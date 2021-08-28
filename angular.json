@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "refinitiv-question1"
+  "defaultProject": "refinitiv-question1",
+  "cli": {
+    "analytics": "fcb45524-9690-4154-961e-330294cb187e"
+  }
 }

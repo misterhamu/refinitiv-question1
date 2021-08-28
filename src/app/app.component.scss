@@ -1,0 +1,29 @@
+section {
+    width: 100%;
+    position: relative;
+    display: block;
+    @media screen and (max-width: 600px) {
+      width: 600px;
+    }
+    .col {
+        position: relative;
+        display: inline-block;
+        min-height: 100vh;
+        &__200 {
+            width: 200px;
+            background-color: orange;
+        }
+        &__300 {
+            width: 300px;
+            background-color: gold;
+        }
+        &__auto {
+            width: calc(100% -  500px);
+            min-width: 100px;
+            background-color: palegoldenrod;
+            @media screen and (max-width: 600px) {
+              width: 100px;
+            }
+        }
+    }
+}
